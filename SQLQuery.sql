@@ -23,7 +23,7 @@ create table Student (
     SubjectID int foreign key references Subjects
 )
 
-insert Subjects values
+insert into Subjects values
     (11, 'Tamil'),
     (12, 'English'),
     (13, 'Maths'),
@@ -33,14 +33,14 @@ insert Subjects values
 	(17,'ComputerScience'),
 	(18,'Commerce');
 
-insert Classes values
+insert into Classes values
     (100, 'Class A'),
     (101, 'Class B'),
     (102, 'Class C'),
     (103, 'Class D'),
     (104, 'Class E');
 
-insert Student values
+insert into Student values
     (5113, 'Aishu', 'Divi', '2003-03-30', 100, 17),
     (2113, 'Will', 'Smith', '2005-05-25', 101, 12),
     (6114, 'Virat', 'Kohli', '2004-06-20', 102, 13),
